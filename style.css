@@ -1,0 +1,27 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    background-color: gray;
+    background-image: url(http://www.sitawujatoma.pl/84-large_default/drukarka-sublimacyjna-photo-epson-1500-wifi-6x100ml-tuszu.jpg);
+    background-size: cover;
+}
+.text{
+    width: 100%;
+    padding: 5px 0;
+    background-color: cadetblue;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
